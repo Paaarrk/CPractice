@@ -1,0 +1,134 @@
+﻿  Example02.cpp
+  Example03.c
+  Example04.c
+  Example05.c
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(8,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(8,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(9,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(9,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(10,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(10,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(13,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(13,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(13,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(13,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(14,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(14,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(14,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(14,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(16,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(16,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(17,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(17,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(21,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(21,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(21,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(21,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(23,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(23,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(24,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(24,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(25,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(25,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(33,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(33,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(32,16): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example05.c(51,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example05.c(51,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  Example07.c
+  Example08.c
+  Example09.c
+C:\Users\oreo\github\CPractice\PracticeC\Example09.c(2,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  Example11.c
+  Example12.c
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(8,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example12.c(8,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(8,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example12.c(8,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(27,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(27,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(27,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(27,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(34,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(34,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(34,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example12.c(34,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+  Example13.c
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(72,10): warning C4477: 'printf' : 서식 문자열 '%ld'에 'long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(72,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(84,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example13.c(84,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(84,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example13.c(84,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(90,10): warning C4477: 'printf' : 서식 문자열 '%ld'에 'long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example13.c(90,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+  Example14.c
+  Example15.c
+  Example16.c
+C:\Users\oreo\github\CPractice\PracticeC\Example16.c(14,11): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example16.c(26,12): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int *'입니다.
+  Example17.c
+C:\Users\oreo\github\CPractice\PracticeC\Example17.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example17.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example17.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example17.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int *'입니다.
+  Example18.c
+C:\Users\oreo\github\CPractice\PracticeC\Example18.c(9,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\oreo\github\CPractice\PracticeC\Example18.c(9,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  Example19.c
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(15,42): warning C4020: 'fptr': 실제 매개 변수가 너무 많습니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(16,45): warning C4020: 'fptr': 실제 매개 변수가 너무 많습니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'void *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'void *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(22,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'void *'입니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(14,8): warning C4113: 'void (__cdecl *)(int (*)[2],int,int (__cdecl *)(int (*)[2],int),int (__cdecl *)(int (*)[2],int))'은(는) 'int (__cdecl *)(int (*)[2],int)'과(와) 매개 변수 목록이 다릅니다.
+C:\Users\oreo\github\CPractice\PracticeC\Example19.c(14,8): warning C4133: '초기화 중': 'void (__cdecl *)(int (*)[2],int,int (__cdecl *)(int (*)[2],int),int (__cdecl *)(int (*)[2],int))'과(와) 'int (__cdecl *)(int (*)[2],int)' 사이의 형식이 호환되지 않습니다.
+  main.c
+C:\Users\oreo\github\CPractice\PracticeC\main.c(5,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  PracticeC.vcxproj -> C:\Users\oreo\github\CPractice\PracticeC\x64\Release\PracticeC.exe
