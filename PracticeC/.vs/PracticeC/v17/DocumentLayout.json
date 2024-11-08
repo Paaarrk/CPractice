@@ -3,12 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example20.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example20.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:intdiv3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:intdiv3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:intdiv2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example27.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example27.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\stdiv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:stdiv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example25.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example25.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example24.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example24.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example23.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example09.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example09.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example22.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example22.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example20.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example20.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example19.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -55,10 +102,6 @@
       "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example09.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example09.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example08.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{93A5D55C-AA0D-4A82-9947-28E0305179A7}|PracticeC.vcxproj|solutionrelative:Example08.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -86,7 +129,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 102,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +137,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "exe_common.inl",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\crt\\src\\vcruntime\\exe_common.inl",
+              "ViewState": "AQIAABgBAAAAAAAAAAArwCgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-05T10:58:18.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "intdiv3.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.h",
+              "RelativeDocumentMoniker": "intdiv3.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.h",
+              "RelativeToolTip": "intdiv3.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-05T08:00:29.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "intdiv3.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.c",
+              "RelativeDocumentMoniker": "intdiv3.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv3.c",
+              "RelativeToolTip": "intdiv3.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-05T08:00:09.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "intdiv2.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv2.c",
+              "RelativeDocumentMoniker": "intdiv2.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\intdiv2.c",
+              "RelativeToolTip": "intdiv2.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-05T07:58:11.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "stdiv.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\stdiv.h",
+              "RelativeDocumentMoniker": "stdiv.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\stdiv.h",
+              "RelativeToolTip": "stdiv.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-05T07:56:22.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Example27.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example27.c",
+              "RelativeDocumentMoniker": "Example27.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example27.c",
+              "RelativeToolTip": "Example27.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-05T07:51:14.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Example26.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example26.c",
+              "RelativeDocumentMoniker": "Example26.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example26.c",
+              "RelativeToolTip": "Example26.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-04T13:15:42.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Example25.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example25.c",
+              "RelativeDocumentMoniker": "Example25.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example25.c",
+              "RelativeToolTip": "Example25.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-04T06:53:11.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Example24.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example24.c",
+              "RelativeDocumentMoniker": "Example24.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example24.c",
+              "RelativeToolTip": "Example24.c",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAswPIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-02T04:56:29.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Example23.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example23.c",
+              "RelativeDocumentMoniker": "Example23.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example23.c",
+              "RelativeToolTip": "Example23.c",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAswE0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-01T09:16:30.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Example22.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example22.c",
+              "RelativeDocumentMoniker": "Example22.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example22.c",
+              "RelativeToolTip": "Example22.c",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAswFoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-01T08:27:38.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Example20.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example20.c",
               "RelativeDocumentMoniker": "Example20.c",
@@ -102,12 +284,11 @@
               "RelativeToolTip": "Example20.c",
               "ViewState": "AQIAAHABAAAAAAAAAAAQwHwBAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-29T11:17:05.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T11:17:05.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Example19.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example19.c",
               "RelativeDocumentMoniker": "Example19.c",
@@ -119,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Example18.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example18.c",
               "RelativeDocumentMoniker": "Example18.c",
@@ -131,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Example17.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example17.c",
               "RelativeDocumentMoniker": "Example17.c",
@@ -143,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Example16.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example16.c",
               "RelativeDocumentMoniker": "Example16.c",
@@ -155,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Example15.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example15.c",
               "RelativeDocumentMoniker": "Example15.c",
@@ -167,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Example14.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example14.c",
               "RelativeDocumentMoniker": "Example14.c",
@@ -179,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Example13.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example13.c",
               "RelativeDocumentMoniker": "Example13.c",
@@ -191,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "Example12.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example12.c",
               "RelativeDocumentMoniker": "Example12.c",
@@ -203,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "Example12.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example12.c",
               "RelativeDocumentMoniker": "Example12.c",
@@ -215,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "Example11.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example11.c",
               "RelativeDocumentMoniker": "Example11.c",
@@ -227,19 +408,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Example09.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example09.c",
               "RelativeDocumentMoniker": "Example09.c",
               "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example09.c",
               "RelativeToolTip": "Example09.c",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAiAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAswD0AAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-22T12:37:53.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "Example08.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example08.c",
               "RelativeDocumentMoniker": "Example08.c",
@@ -251,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "Example07.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example07.c",
               "RelativeDocumentMoniker": "Example07.c",
@@ -263,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "Example05.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example05.c",
               "RelativeDocumentMoniker": "Example05.c",
@@ -275,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "Example04.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example04.c",
               "RelativeDocumentMoniker": "Example04.c",
@@ -287,20 +468,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\main.c",
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAHcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-21T08:29:46.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "Example03.c",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example03.c",
               "RelativeDocumentMoniker": "Example03.c",
@@ -312,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Example02.cpp",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\PracticeC\\Example02.cpp",
               "RelativeDocumentMoniker": "Example02.cpp",

@@ -59,7 +59,7 @@ void Example9_05()
 {
 	int n;
 	scanf("%d", &n);
-	printf("2ÀÇ%d½Â = %d", n, Pow2(n));
+	printf("2ÀÇ%d½Â = %d", n, Pow2(n));                                                                                              
 }
 
 // ÇÔ¼ö Á¤ÀÇ

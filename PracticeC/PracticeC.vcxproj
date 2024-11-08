@@ -144,7 +144,19 @@
     <ClCompile Include="Example18.c" />
     <ClCompile Include="Example19.c" />
     <ClCompile Include="Example20.c" />
+    <ClCompile Include="Example22.c" />
+    <ClCompile Include="Example23.c" />
+    <ClCompile Include="Example24.c" />
+    <ClCompile Include="Example25.c" />
+    <ClCompile Include="Example26.c" />
+    <ClCompile Include="Example27.c" />
+    <ClCompile Include="intdiv2.c" />
+    <ClCompile Include="intdiv3.c" />
     <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intdiv3.h" />
+    <ClInclude Include="stdiv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

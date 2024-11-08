@@ -69,5 +69,37 @@
     <ClCompile Include="Example20.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Example22.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Example23.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Example24.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Example25.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Example26.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Example27.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="intdiv2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="intdiv3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdiv.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="intdiv3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

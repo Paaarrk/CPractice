@@ -1,0 +1,5 @@
+#name: younsu 
+#address: 900298-1012589 
+#phonenum: 010-1111-2222 
+#favorite food: jampong, tansuyuk 
+#habbit: soccer 
