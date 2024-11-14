@@ -66,6 +66,7 @@ static int Dequeue(Queue* q)
 	(q->front)++;
 	if (q->front == q->capacity)
 		q->front = 0;
+	(q->count)--;
 	printf("현재 f의 위치 %d, 현재 r의 위치 %d\n", q->front, q->rear);
 	return ret;
 }

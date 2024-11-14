@@ -1,4 +1,6 @@
-﻿  ch09.cpp
+﻿  ch14.cpp
   main.cpp
   코드를 생성하고 있습니다...
-  PracticeC++.vcxproj -> C:\Users\oreo\github\CPractice\PracticeC++\x64\Debug\PracticeC++.exe
+main.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class ArrayT<int> const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBV?$ArrayT@H@@@Z)이(가) ch14.obj에 이미 정의되어 있습니다.
+PracticeC++\x64\Debug\TemporaryWorker.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+C:\Users\oreo\github\CPractice\PracticeC++\x64\Debug\PracticeC++.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

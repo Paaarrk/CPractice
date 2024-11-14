@@ -1,0 +1,7 @@
+﻿Test\x64\Debug\cstyle.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
+cstyle.obj : error LNK2019: InitQueue1CStyle1 함수에서 참조되는 확인할 수 없는 외부 기호
+cstyle.obj : error LNK2019: Destroy1CStyle1 함수에서 참조되는 확인할 수 없는 외부 기호
+cstyle.obj : error LNK2019: Dequeue1CStyle1 함수에서 참조되는 확인할 수 없는 외부 기호
+cstyle.obj : error LNK2019: ShowQueue1CStyle1 함수에서 참조되는 확인할 수 없는 외부 기호
+cstyle.obj : error LNK2019: EnqueueCStyle1 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\oreo\github\CPractice\Test\x64\Debug\Test.exe : fatal error LNK1120: 5개의 확인할 수 없는 외부 참조입니다.

@@ -127,14 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ch01.cpp" />
-    <ClCompile Include="ch02.cpp" />
-    <ClCompile Include="ch03.cpp" />
-    <ClCompile Include="ch04.cpp" />
-    <ClCompile Include="ch05.cpp" />
-    <ClCompile Include="ch07.cpp" />
-    <ClCompile Include="ch08.cpp" />
-    <ClCompile Include="ch09.cpp" />
+    <ClCompile Include="array2d.cpp" />
+    <ClCompile Include="ch14.cpp" />
+    <ClCompile Include="ch15.cpp" />
+    <ClCompile Include="ch16.cpp" />
     <ClCompile Include="Employ.cpp" />
     <ClCompile Include="EmployHandler.cpp" />
     <ClCompile Include="main.cpp" />
@@ -144,14 +140,10 @@
     <ClCompile Include="TemporaryWorker.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ch01.h" />
-    <ClInclude Include="ch02.h" />
-    <ClInclude Include="ch03.h" />
-    <ClInclude Include="ch04.h" />
-    <ClInclude Include="ch05.h" />
-    <ClInclude Include="ch07.h" />
-    <ClInclude Include="ch08.h" />
-    <ClInclude Include="ch09.h" />
+    <ClInclude Include="array2d.h" />
+    <ClInclude Include="ch14.h" />
+    <ClInclude Include="ch15.h" />
+    <ClInclude Include="ch16.h" />
     <ClInclude Include="Employ.h" />
     <ClInclude Include="EmployHandler.h" />
     <ClInclude Include="PermanentWorker.h" />

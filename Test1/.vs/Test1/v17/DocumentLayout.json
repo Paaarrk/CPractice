@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oreo\\github\\CPractice\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:cqueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\OSTREAM||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:bublesort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:cqueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29F5C661-2FB9-41AF-86C3-3490712459E7}|Test1.vcxproj|solutionrelative:bublesort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 250,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-13T23:57:13.928Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Point.cpp",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.cpp",
+              "RelativeDocumentMoniker": "Point.cpp",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.cpp",
+              "RelativeToolTip": "Point.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T01:30:22.548Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ostream",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\ostream",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\ostream",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\ostream",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\ostream",
+              "ViewState": "AQIAAOUDAAAAAAAAAAAQwPMDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-14T02:28:25.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "list.cpp",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\list.cpp",
+              "RelativeDocumentMoniker": "list.cpp",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\list.cpp",
+              "RelativeToolTip": "list.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T00:13:50.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bublesort.cpp",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.cpp",
+              "RelativeDocumentMoniker": "bublesort.cpp",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.cpp",
+              "RelativeToolTip": "bublesort.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T00:14:05.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cqueue.c",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.c",
+              "RelativeDocumentMoniker": "cqueue.c",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.c",
+              "RelativeToolTip": "cqueue.c",
+              "ViewState": "AQIAABAAAAAAAAAAAAAewCAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-13T23:57:30.906Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 138,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "list.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\list.h",
+              "RelativeDocumentMoniker": "list.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\list.h",
+              "RelativeToolTip": "list.h",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAI8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-14T00:13:57.524Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Point.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.h",
+              "RelativeDocumentMoniker": "Point.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\Point.h",
+              "RelativeToolTip": "Point.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-14T01:29:50.538Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bublesort.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.h",
+              "RelativeDocumentMoniker": "bublesort.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\bublesort.h",
+              "RelativeToolTip": "bublesort.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-14T00:14:24.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cqueue.h",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.h",
+              "RelativeDocumentMoniker": "cqueue.h",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\Test1\\cqueue.h",
+              "RelativeToolTip": "cqueue.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-13T23:57:24.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

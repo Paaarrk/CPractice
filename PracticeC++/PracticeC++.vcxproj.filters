@@ -18,34 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch03.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch04.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch05.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="EmployHandler.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="PermanentWorker.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch07.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Employ.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch08.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="TemporaryWorker.h">
@@ -57,45 +36,42 @@
     <ClCompile Include="SalesWorker.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch09.cpp">
+    <ClCompile Include="array2d.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ch01.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ch02.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ch03.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ch04.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ch05.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="EmployHandler.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="PermanentWorker.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ch07.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Employ.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ch08.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="SalesWorker.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ch09.h">
+    <ClInclude Include="array2d.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ch14.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ch15.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ch16.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
