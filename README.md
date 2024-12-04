@@ -1,2 +1,4 @@
 # CPractice
-열혈C 복습(Book of C Programming Review)
+열혈C 복습
+열혈C++ 복습
+C스타일 원형큐, C++ 더블링크드리스트, 버블소트, 퀵소트
