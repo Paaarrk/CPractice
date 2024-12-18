@@ -1,0 +1,142 @@
+﻿  ch01.c
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(30,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(30,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) char *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(31,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(31,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) char *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(31,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'char **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(31,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) char **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(33,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(33,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(34,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(34,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(34,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(34,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(36,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'long *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(36,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(37,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'long *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(37,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(37,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'long **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(37,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(39,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 '__int64'입니다.
+  C:\Users\oreo\github\CPractice\CPointer\ch01.c(39,9):
+  서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  C:\Users\oreo\github\CPractice\CPointer\ch01.c(39,9):
+  서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(39,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 '__int64 *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(39,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) __int64 *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(40,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 '__int64 *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(40,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) __int64 *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(40,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 '__int64 **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(40,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) __int64 **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(43,5): warning C4047: '=': '__int64'의 간접 참조 수준이 'char *'과(와) 다릅니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(46,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(46,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) float *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(47,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'float *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(47,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) float *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(47,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'float **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(47,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) float **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(49,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(49,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) double *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(50,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(50,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) double *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(50,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(50,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) double **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(52,9): warning C4475: 'printf' : 길이 한정자 'll'은(는) 서식 지정자에서 형식 필드 문자 'f'과(와) 함께 사용할 수 없습니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(52,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'long double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(52,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long double *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(53,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'long double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(53,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long double *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(53,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'long double **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(53,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) long double **' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(70,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(70,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(70,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(70,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) char *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(71,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'short *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(71,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) short *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(71,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'short *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(71,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) short *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(72,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(72,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(72,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(72,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(73,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'long *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(73,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) long *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(73,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'long *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(73,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) long *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(74,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64 *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(74,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) __int64 *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(74,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 '__int64 *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(74,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) __int64 *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(78,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(78,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) float *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(78,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'float *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(78,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) float *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(79,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(79,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) double *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(79,9): warning C4477: 'printf' : 서식 문자열 '%lld'에 '__int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch01.c(79,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) double *' 형식의 인수 2과(와) 충돌합니다.
+  ch02.c
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(12,9): warning C4477: 'printf' : 서식 문자열 '%8X'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(8,8): warning C4047: '초기화 중': 'int **'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(31,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(32,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(32,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(32,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(32,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(33,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int ***'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(33,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int ***' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(38,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(39,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(39,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(39,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(39,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(40,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int ***'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(40,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int ***' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(47,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64 *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(47,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) __int64 *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(49,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(49,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(49,9): warning C4477: 'printf' : 서식 문자열 '%X'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(51,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(51,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int **' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(51,9): warning C4477: 'printf' : 서식 문자열 '%X'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(56,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(56,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(56,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(56,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch02.c(48,7): warning C4133: '초기화 중': '__int64 *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+  ch03.c
+C:\Users\oreo\github\CPractice\CPointer\ch03.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\oreo\github\CPractice\CPointer\ch03.c(43,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int (*)[2][3]'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch03.c(43,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int (*)[2][3]' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch03.c(43,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (*)[2][3]'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch03.c(43,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int (*)[2][3]' 형식의 인수 2과(와) 충돌합니다.
+  ch04.c
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) char *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) char *' 형식의 인수 2과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 3과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4477: 'printf' : 서식 문자열 '%llX'에 'unsigned __int64' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int *'입니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(27,9): warning C4313: 'printf': 서식 문자열의 '%X'이(가) int *' 형식의 인수 4과(와) 충돌합니다.
+C:\Users\oreo\github\CPractice\CPointer\ch04.c(24,10): warning C4305: '초기화 중': '__int64'에서 'int'(으)로 잘립니다.
+  main.c
+C:\Users\oreo\github\CPractice\CPointer\main.c(4,2): warning C4013: 'Ch04_01'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+  CPointer.vcxproj -> C:\Users\oreo\github\CPractice\CPointer\Debug\CPointer.exe

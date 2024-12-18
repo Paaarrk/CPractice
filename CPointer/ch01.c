@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /*
-º¯¼ö´Â ¸Ş¸ğ¸®¿¡ ÇÒ´çµÈ´Ù. 
-º¯¼öÀÇ ÀÌ¸§Àº ´Ğ³×ÀÓ, º¯¼öÀÇ ÁÖ¼Ò´Â ¾ÆÀÌµğ ´À³¦
-º¯¼ö´Â ÀÚ·áÇüÀ¸·Î ¸Ş¸ğ¸® °ø°£ÀÇ Å©±â¿Í ÇüÅÂ¸¦ ³ªÅ¸³½´Ù.
-sizeof() ´Â ¿¬»êÀÚ·Î, ÄÄÆÄÀÏ½Ã°£¿¡ °ªÀ¸·Î Ä¡È¯µÈ´Ù.
+ë³€ìˆ˜ëŠ” ë©”ëª¨ë¦¬ì— í• ë‹¹ëœë‹¤. 
+ë³€ìˆ˜ì˜ ì´ë¦„ì€ ë‹‰ë„¤ì„, ë³€ìˆ˜ì˜ ì£¼ì†ŒëŠ” ì•„ì´ë”” ëŠë‚Œ
+ë³€ìˆ˜ëŠ” ìë£Œí˜•ìœ¼ë¡œ ë©”ëª¨ë¦¬ ê³µê°„ì˜ í¬ê¸°ì™€ í˜•íƒœë¥¼ ë‚˜íƒ€ë‚¸ë‹¤.
+sizeof() ëŠ” ì—°ì‚°ìë¡œ, ì»´íŒŒì¼ì‹œê°„ì— ê°’ìœ¼ë¡œ ì¹˜í™˜ëœë‹¤.
 */
 
 void Ch01_01()
@@ -26,40 +26,40 @@ void Ch01_01()
 	long double ld = 14.8l;
 	long double* ldp = &ld;
 
-	printf("--- 64ºñÆ® ÇÁ·Î¼¼¼­ ±âÁØ (À©µµ¿ì ±âÁØ longÀº 4byte) --- \n");
-	printf("charÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, charÀÇ ¹®ÀÚ: %c, charÀÇ ÁÖ¼Ò: %llX \n", sizeof(c), c, &c);
-	printf("charÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, charÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, charÀÇ ÁÖ¼Ò: %llX \n", sizeof(cp), cp, &cp);
+	printf("--- 64ë¹„íŠ¸ í”„ë¡œì„¸ì„œ ê¸°ì¤€ (ìœˆë„ìš° ê¸°ì¤€ longì€ 4byte) --- \n");
+	printf("charì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, charì˜ ë¬¸ì: %c, charì˜ ì£¼ì†Œ: %llX \n", sizeof(c), c, &c);
+	printf("charí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, charì˜í¬ì¸í„° ì €ì¥ê°’: %llX, charì˜ ì£¼ì†Œ: %llX \n", sizeof(cp), cp, &cp);
 	printf("[cp] -> [c] -> Mem[A]\n\n");
-	printf("intÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, intÀÇ ¹®ÀÚ: %d, intÀÇ ÁÖ¼Ò: %llX \n", sizeof(i), i, &i);
-	printf("intÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, intÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, intÀÇ ÁÖ¼Ò: %llX \n", sizeof(ip), ip, &ip);
+	printf("intì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, intì˜ ë¬¸ì: %d, intì˜ ì£¼ì†Œ: %llX \n", sizeof(i), i, &i);
+	printf("intí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, intì˜í¬ì¸í„° ì €ì¥ê°’: %llX, intì˜ ì£¼ì†Œ: %llX \n", sizeof(ip), ip, &ip);
 	printf("[ip] -> [i] -> Mem[15]\n\n");
-	printf("longÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, longÀÇ ¹®ÀÚ: %d, longÀÇ ÁÖ¼Ò: %llX \n", sizeof(l), l, &l);
-	printf("longÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, longÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, longÀÇ ÁÖ¼Ò: %llX \n", sizeof(lp), lp, &lp);
+	printf("longì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longì˜ ë¬¸ì: %d, longì˜ ì£¼ì†Œ: %llX \n", sizeof(l), l, &l);
+	printf("longí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longì˜í¬ì¸í„° ì €ì¥ê°’: %llX, longì˜ ì£¼ì†Œ: %llX \n", sizeof(lp), lp, &lp);
 	printf("[lp] -> [l] -> Mem[13]\n\n");
-	printf("longlongÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, longlongÀÇ ¹®ÀÚ: %d, longlongÀÇ ÁÖ¼Ò: %llX \n", sizeof(ll), ll, &ll);
-	printf("longlongÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, longlongÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, longlongÀÇ ÁÖ¼Ò: %llX \n", sizeof(llp), llp, &llp);
+	printf("longlongì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longlongì˜ ë¬¸ì: %d, longlongì˜ ì£¼ì†Œ: %llX \n", sizeof(ll), ll, &ll);
+	printf("longlongí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longlongì˜í¬ì¸í„° ì €ì¥ê°’: %llX, longlongì˜ ì£¼ì†Œ: %llX \n", sizeof(llp), llp, &llp);
 	printf("[llp] -> [ll] -> Mem[14]\n\n");
-	printf("longlong¿¡ Æ÷ÀÎÅÍÁÖ¼Ò¸¦ ÀúÀå ÇÒ ¼ö ÀÖÀ» ±î?\n");
+	printf("longlongì— í¬ì¸í„°ì£¼ì†Œë¥¼ ì €ì¥ í•  ìˆ˜ ìˆì„ ê¹Œ?\n");
 	ll = cp;
-	printf("ll °ª: %llX\n", ll);
-	printf("ll char*·Î Çüº¯È¯ ÈÄ °ª ÃßÃâ: %c\n\n", *(char*)ll);
-	printf("floatÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, floatÀÇ ¹®ÀÚ: %f, floatÀÇ ÁÖ¼Ò: %llX \n", sizeof(f), f, &f);
-	printf("floatÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, floatÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, floatÀÇ ÁÖ¼Ò: %llX \n", sizeof(fp), fp, &fp);
+	printf("ll ê°’: %llX\n", ll);
+	printf("ll char*ë¡œ í˜•ë³€í™˜ í›„ ê°’ ì¶”ì¶œ: %c\n\n", *(char*)ll);
+	printf("floatì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, floatì˜ ë¬¸ì: %f, floatì˜ ì£¼ì†Œ: %llX \n", sizeof(f), f, &f);
+	printf("floatí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, floatì˜í¬ì¸í„° ì €ì¥ê°’: %llX, floatì˜ ì£¼ì†Œ: %llX \n", sizeof(fp), fp, &fp);
 	printf("[fp] -> [f] -> Mem[14.8]\n\n");
-	printf("doubleÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, doubleÀÇ ¹®ÀÚ: %lf, doubleÀÇ ÁÖ¼Ò: %llX \n", sizeof(d), d, &d);
-	printf("doubleÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, doubleÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, doubleÀÇ ÁÖ¼Ò: %llX \n", sizeof(dp), dp, &dp);
+	printf("doubleì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, doubleì˜ ë¬¸ì: %lf, doubleì˜ ì£¼ì†Œ: %llX \n", sizeof(d), d, &d);
+	printf("doubleí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, doubleì˜í¬ì¸í„° ì €ì¥ê°’: %llX, doubleì˜ ì£¼ì†Œ: %llX \n", sizeof(dp), dp, &dp);
 	printf("[dp] -> [d] -> Mem[14.8]\n\n");
-	printf("longdoubleÀÇ »çÀÌÁî: %d¹ÙÀÌÆ®, longdoubleÀÇ ¹®ÀÚ: %llf, longdoubleÀÇ ÁÖ¼Ò: %llX \n", sizeof(ld), ld, &ld);
-	printf("longdoubleÆ÷ÀÎÅÍ »çÀÌÁî: %d¹ÙÀÌÆ®, longdoubleÀÇÆ÷ÀÎÅÍ ÀúÀå°ª: %llX, longdoubleÀÇ ÁÖ¼Ò: %llX \n", sizeof(ldp), ldp, &ldp);
+	printf("longdoubleì˜ ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longdoubleì˜ ë¬¸ì: %llf, longdoubleì˜ ì£¼ì†Œ: %llX \n", sizeof(ld), ld, &ld);
+	printf("longdoubleí¬ì¸í„° ì‚¬ì´ì¦ˆ: %dë°”ì´íŠ¸, longdoubleì˜í¬ì¸í„° ì €ì¥ê°’: %llX, longdoubleì˜ ì£¼ì†Œ: %llX \n", sizeof(ldp), ldp, &ldp);
 	printf("[ldp] -> [ld] -> Mem[14.8]\n\n");
 }
 
 void Ch01_02()
 {
-	// 1. ÁÖ¼ÒÀÇ °¡.°¨»ê
+	// 1. ì£¼ì†Œì˜ ê°€.ê°ì‚°
 	/*
-	ÁÖ¼ÒÀÇ ¿¬»ê 
-	ÀÚ·áÇüÀÇ ÁÖ¼Ò(n + 1Â÷¿ø) +- Á¤¼ö * sizeof(ÀÚ·áÇü(nÂ÷¿ø)) = ÀÚ·áÇüÀÇ ÁÖ¼Ò 
+	ì£¼ì†Œì˜ ì—°ì‚° 
+	ìë£Œí˜•ì˜ ì£¼ì†Œ(n + 1ì°¨ì›) +- ì •ìˆ˜ * sizeof(ìë£Œí˜•(nì°¨ì›)) = ìë£Œí˜•ì˜ ì£¼ì†Œ 
 	*/
 	char c = 'A';
 	short s = 9;
@@ -67,19 +67,19 @@ void Ch01_02()
 	long l = 11;
 	long long ll = 12;
 
-	printf("char ÁÖ¼Ò:\t%lld\nchar ÁÖ¼Ò +1:\t%lld \n\n", &c, (& c) + 1);
-	printf("short ÁÖ¼Ò:\t%lld\nshort ÁÖ¼Ò +1:\t%lld \n\n", &s, (& s) + 1);
-	printf("int ÁÖ¼Ò:\t%lld\nint ÁÖ¼Ò +1:\t%lld \n\n", &i, (& i) + 1);
-	printf("long ÁÖ¼Ò:  \t%lld\nlong ÁÖ¼Ò +1:\t%lld \n\n", &l, (& l) + 1);
-	printf("longlong ÁÖ¼Ò:\t\t%lld\nlonglong ÁÖ¼Ò +1:\t%lld \n\n", &ll, (& ll) + 1);
+	printf("char ì£¼ì†Œ:\t%lld\nchar ì£¼ì†Œ +1:\t%lld \n\n", &c, (& c) + 1);
+	printf("short ì£¼ì†Œ:\t%lld\nshort ì£¼ì†Œ +1:\t%lld \n\n", &s, (& s) + 1);
+	printf("int ì£¼ì†Œ:\t%lld\nint ì£¼ì†Œ +1:\t%lld \n\n", &i, (& i) + 1);
+	printf("long ì£¼ì†Œ:  \t%lld\nlong ì£¼ì†Œ +1:\t%lld \n\n", &l, (& l) + 1);
+	printf("longlong ì£¼ì†Œ:\t\t%lld\nlonglong ì£¼ì†Œ +1:\t%lld \n\n", &ll, (& ll) + 1);
 
 	float f = 14.8f;
 	double d = 14.8;
-	printf("float ÁÖ¼Ò:\t\t%lld\nfloat ÁÖ¼Ò + 1: \t%lld \n\n", &f, (&f) + 1);
-	printf("double ÁÖ¼Ò:\t\t%lld\ndouble ÁÖ¼Ò + 1: \t%lld \n\n", &d, (&d) + 1);
+	printf("float ì£¼ì†Œ:\t\t%lld\nfloat ì£¼ì†Œ + 1: \t%lld \n\n", &f, (&f) + 1);
+	printf("double ì£¼ì†Œ:\t\t%lld\ndouble ì£¼ì†Œ + 1: \t%lld \n\n", &d, (&d) + 1);
 	
 
-	// 2. ÁÖ¼Ò¸¦ °¡Áö°í °ªÀ» ÀĞ¾îº¸±â
+	// 2. ì£¼ì†Œë¥¼ ê°€ì§€ê³  ê°’ì„ ì½ì–´ë³´ê¸°
 	/*
 	-- STACK --	(GB : Garbage)
 	[   44   ] -- 0x00  char
@@ -92,28 +92,28 @@ void Ch01_02()
 	[   GB   ] -- 0x07                      longlong
 	*/
 	int n = 0x11223344;
-	printf("char·Î ÀĞ±â: \t%X, %X, %X, %X\n\n", *(char*)&n, *((char*)&n + 1), *((char*)&n + 2), *((char*)&n + 3));
-	printf("short·Î ÀĞ±â: \t%X, %X \n\n", *(short*)&n, *((short*)&n + 1));
-	printf("int ·Î ÀĞ±â: \t%X \n\n", *(int*)&n);
-	printf("long ·Î ÀĞ±â: \t%lX \n\n", *(long*)&n);
-	printf("longlong ·Î ÀĞ±â: \t%llX (¾²·¹±â °ªµµ °°ÀÌ ³ª¿Â´Ù)\n\n", *(long long*)&n);
+	printf("charë¡œ ì½ê¸°: \t%X, %X, %X, %X\n\n", *(char*)&n, *((char*)&n + 1), *((char*)&n + 2), *((char*)&n + 3));
+	printf("shortë¡œ ì½ê¸°: \t%X, %X \n\n", *(short*)&n, *((short*)&n + 1));
+	printf("int ë¡œ ì½ê¸°: \t%X \n\n", *(int*)&n);
+	printf("long ë¡œ ì½ê¸°: \t%lX \n\n", *(long*)&n);
+	printf("longlong ë¡œ ì½ê¸°: \t%llX (ì“°ë ˆê¸° ê°’ë„ ê°™ì´ ë‚˜ì˜¨ë‹¤)\n\n", *(long long*)&n);
 
-	// 3. ¹è¿­Ã³·³ ÁÖ¼Ò¸¦ ÀĞ¾îº¸ÀÚ
+	// 3. ë°°ì—´ì²˜ëŸ¼ ì£¼ì†Œë¥¼ ì½ì–´ë³´ì
 	long long nn= 0x1122334455667788;
-	printf("StackÀÇ ±¸¼º\n");
+	printf("Stackì˜ êµ¬ì„±\n");
 	for (int i = 0; i < 8; i++)
 	{
 		printf("[ %X ]\n", ((char*)&nn)[i]);
 	}
-	printf("\n¼¯¾îÀĞ±â\n");
+	printf("\nì„ì–´ì½ê¸°\n");
 	printf("[   %X   ]\n", *(short*)&nn);
 	printf("[ %X ]\n", *(int*)((short*)&nn + 1));
 	printf("[   %X   ]\n", *((short*)&nn) + 3);
 
-	// ++ ¿Í -- °°Àº ¿¬»êÀÚ »ç¿ëÀÌ ºÒ°¡´É ÇÑ ÀÌÀ¯
+	// ++ ì™€ -- ê°™ì€ ì—°ì‚°ì ì‚¬ìš©ì´ ë¶ˆê°€ëŠ¥ í•œ ì´ìœ 
 	/*
-	1. ++,-- ´Â º¯¼ö¿¡ Àû¿ëµÇ´Â ¿¬»êÀÚ ÀÌ±â ¶§¹®ÀÌ´Ù.
-	2. Æ÷ÀÎÅÍ º¯¼ö¶ó¸é °¡´ÉÇÏ´Ù. ÇÏÁö¸¸ &·Î ²¨³½ ÁÖ¼Ò¿¡´Â »ç¿ëÀÌ ºÒ°¡´ÉÇÏ´Ù.
+	1. ++,-- ëŠ” ë³€ìˆ˜ì— ì ìš©ë˜ëŠ” ì—°ì‚°ì ì´ê¸° ë•Œë¬¸ì´ë‹¤.
+	2. í¬ì¸í„° ë³€ìˆ˜ë¼ë©´ ê°€ëŠ¥í•˜ë‹¤. í•˜ì§€ë§Œ &ë¡œ êº¼ë‚¸ ì£¼ì†Œì—ëŠ” ì‚¬ìš©ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.
 	*/
 
 }

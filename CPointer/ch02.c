@@ -10,12 +10,12 @@ void Ch02_01()
 	//npp = &p;
 	
 	printf("%8X %8X", n, *npp);
-	//**npp ´Â ÀĞÀ» ¼ö ¾ø´Ù. ¹ºÁşÀ» ÇØµµ ºÒ°¡´ÉÇÏ´Ù. -1Â÷¿øÀ¸·Î °¡±â ¶§¹®ÀÌ´Ù. (nÀÌ 0Â÷¿ø ±âÁØ)
+	//**npp ëŠ” ì½ì„ ìˆ˜ ì—†ë‹¤. ë­”ì§“ì„ í•´ë„ ë¶ˆê°€ëŠ¥í•˜ë‹¤. -1ì°¨ì›ìœ¼ë¡œ ê°€ê¸° ë•Œë¬¸ì´ë‹¤. (nì´ 0ì°¨ì› ê¸°ì¤€)
 }
 
 void Ch02_02()
 {
-	// ´ÙÂ÷¿ø Æ÷ÀÎÅÍ
+	// ë‹¤ì°¨ì› í¬ì¸í„°
 	int n = 0x20;
 	int* np = &n;
 	int** npp = &np;
@@ -35,23 +35,23 @@ void Ch02_02()
 	printf("SIZEOF: %X %X %X \n", sizeof(&n), sizeof(np), sizeof(*npp));
 	printf("SIZEOF: %X %X \n", sizeof(&np), sizeof(npp));
 	printf("SIZEOF: %X \n", sizeof(&npp));
-	printf("%llX %llX %llX \n", &n + 1, np + 1, *npp + 1);	//np°¡ °¡¸®Å°´Â °ªÀÌ 4¹ÙÀÌÆ® °ªÀÌ¹Ç·Î ÁÖ¼Ò°¡ 4¸¸Å­ Áõ°¡
+	printf("%llX %llX %llX \n", &n + 1, np + 1, *npp + 1);	//npê°€ ê°€ë¦¬í‚¤ëŠ” ê°’ì´ 4ë°”ì´íŠ¸ ê°’ì´ë¯€ë¡œ ì£¼ì†Œê°€ 4ë§Œí¼ ì¦ê°€
 	printf("%llX %llX \n", &np + 1, npp + 1);
 	printf("%llX \n", &npp + 1);
 }
 
 void Ch02_03()
 {
-	// Æ÷ÀÎÅÍ·Î Àå³­Ä¡±â
+	// í¬ì¸í„°ë¡œ ì¥ë‚œì¹˜ê¸°
 	long long n = 0x1122334455667788;
-	printf("nÀÇ ÁÖ¼Ò:\t %llX, °ª: \t%llX \n", &n, n);
+	printf("nì˜ ì£¼ì†Œ:\t %llX, ê°’: \t%llX \n", &n, n);
 	int* niptr = &n;
-	printf("niptrÀÇ ÁÖ¼Ò:\t %llX, °ª: \t%X \n", &niptr, niptr);
+	printf("niptrì˜ ì£¼ì†Œ:\t %llX, ê°’: \t%X \n", &niptr, niptr);
 	int* niptrup = (int*)& n + 1;
-	printf("niptrupÀÇ ÁÖ¼Ò:\t %llX, °ª: \t%X \n", &niptrup, niptrup);
-	printf("nÀ» Ãâ·ÂÇÏ±â(´Ù¸¥ ¹æ¹ı) %X%X \n", *niptrup, *niptr);
+	printf("niptrupì˜ ì£¼ì†Œ:\t %llX, ê°’: \t%X \n", &niptrup, niptrup);
+	printf("nì„ ì¶œë ¥í•˜ê¸°(ë‹¤ë¥¸ ë°©ë²•) %X%X \n", *niptrup, *niptr);
 
 
 	int n2 = 0x12345678;
-	printf("%llX, %llX", &n2, &n2 + 1); //ÇÑÂ÷¿ø ³·Ãá sizeof¸¦ °è»êÇØ¼­ 1¿¡ °öÇØ ´õÇÑ´Ù.
+	printf("%llX, %llX", &n2, &n2 + 1); //í•œì°¨ì› ë‚®ì¶˜ sizeofë¥¼ ê³„ì‚°í•´ì„œ 1ì— ê³±í•´ ë”í•œë‹¤.
 }
