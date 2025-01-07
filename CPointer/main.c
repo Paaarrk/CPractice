@@ -1,6 +1,6 @@
 
 int main(void)
 {
-	Ch04_06();
+	Ch06_03();
 	return 0;
 }
