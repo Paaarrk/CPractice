@@ -1,4 +1,0 @@
-﻿  queue.c
-C:\Users\oreo\github\CPractice\TestC\queue.c(31,9): warning C4133: '=': 'Queue *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
-C:\Users\oreo\github\CPractice\TestC\queue.c(24,9): warning C4133: '초기화 중': 'int *'과(와) 'Queue *' 사이의 형식이 호환되지 않습니다.
-  TestC.vcxproj -> C:\Users\oreo\github\CPractice\TestC\x64\Debug\TestC.exe
