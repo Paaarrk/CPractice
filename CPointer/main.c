@@ -1,6 +1,6 @@
 
 int main(void)
 {
-	Ch06_03();
+	wbcs();
 	return 0;
 }

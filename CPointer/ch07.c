@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
-
+#include <string.h>
 /*
 ** 포인터와 구조체 **
 * My Result *
@@ -16,3 +16,11 @@
 4.	자신의 주소를 저장하는 구조체
 
 */
+
+void wbcs()
+{
+	char str[] = "ABC한글";
+	int size = sizeof(str);
+	int len = strlen(str);
+	printf("%d, %d", size, len);
+}
