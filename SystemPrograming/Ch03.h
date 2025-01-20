@@ -16,5 +16,8 @@ void Ex03();
 
 void Ex04();
 
+void Ex05();
 
+// 시스템 디렉터리와 Windows디렉터리 확인
+void Ex06();
 #endif

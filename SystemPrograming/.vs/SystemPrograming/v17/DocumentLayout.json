@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{07E1C46B-11DE-4D14-B51B-BFBB5B0C3462}|..\\ChildProcess\\ChildProcess.vcxproj|C:\\Users\\oreo\\github\\CPractice\\ChildProcess\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|solutionrelative:Ch03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30CEE25D-3C34-4A46-9221-08518029BA25}|SystemPrograming.vcxproj|C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch03.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -40,14 +43,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\ChildProcess\\main.cpp",
+              "RelativeDocumentMoniker": "..\\ChildProcess\\main.cpp",
+              "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\ChildProcess\\main.cpp",
+              "RelativeToolTip": "..\\ChildProcess\\main.cpp",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-15T03:29:42.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\main.cpp",
               "RelativeToolTip": "main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-08T05:31:21.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:31:21.088Z"
             },
             {
               "$type": "Document",
@@ -57,14 +72,13 @@
               "RelativeDocumentMoniker": "Ch03.cpp",
               "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch03.cpp",
               "RelativeToolTip": "Ch03.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADkAAAAuAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAewHgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T06:04:35.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T06:04:35.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Ch02.cpp",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch02.cpp",
               "RelativeDocumentMoniker": "Ch02.cpp",
@@ -72,8 +86,7 @@
               "RelativeToolTip": "Ch02.cpp",
               "ViewState": "AQIAADgAAAAAAAAAAAAewFAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-08T05:31:48.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:31:48.288Z"
             }
           ]
         },
@@ -83,20 +96,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Ch03.h",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch03.h",
               "RelativeDocumentMoniker": "Ch03.h",
               "ToolTip": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch03.h",
               "RelativeToolTip": "Ch03.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-10T06:04:43.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Ch02.h",
               "DocumentMoniker": "C:\\Users\\oreo\\github\\CPractice\\SystemPrograming\\Ch02.h",
               "RelativeDocumentMoniker": "Ch02.h",
@@ -104,8 +117,7 @@
               "RelativeToolTip": "Ch02.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-08T05:31:15.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:31:15.627Z"
             }
           ]
         }

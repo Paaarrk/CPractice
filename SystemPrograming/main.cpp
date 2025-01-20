@@ -6,6 +6,6 @@
 
 int _tmain(int argc, TCHAR* argv[])
 {
-	Ex04();
+	Ex05();
 	return 0;
 }
