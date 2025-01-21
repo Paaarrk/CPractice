@@ -1,4 +1,4 @@
-#include "Ch03.h"
+#include "Ch06.h"
 #include <iostream>
 #include <tchar.h>
 #include <Windows.h>
@@ -6,6 +6,6 @@
 
 int _tmain(int argc, TCHAR* argv[])
 {
-	Ex05();
+	Ex01();
 	return 0;
 }

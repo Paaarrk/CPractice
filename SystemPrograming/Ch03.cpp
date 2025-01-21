@@ -15,7 +15,7 @@ static UINT_PTR CallDistance(UINT_PTR a, UINT_PTR b)
 	return a - b;
 }
 
-void Ex01()
+static void Ex01()
 {
 	INT val1 = 10;
 	INT val2 = 20;
@@ -26,7 +26,7 @@ void Ex01()
 	);
 }
 
-void Ex02()
+static void Ex02()
 {
 	UINT_PTR a = 1;
 	UINT_PTR b = 2;
@@ -37,7 +37,7 @@ void Ex02()
 	);
 }
 
-void Ex03()
+static void Ex03()
 {
 	HANDLE hFile = CreateFile(	//Windows 시스템 함수
 		_T("ABC.DAT"), GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL,
@@ -49,7 +49,7 @@ void Ex03()
 	}
 }
 
-void Ex04()
+static void Ex04()
 {
 	HANDLE hFile = CreateFile(	// GetLastError() 로 반드시 에러 호출을 하기를 바란다.
 		_T("ABC2.DAT"), GENERIC_WRITE, FILE_SHARE_READ, NULL, CREATE_NEW, FILE_ATTRIBUTE_NORMAL,
@@ -58,7 +58,7 @@ void Ex04()
 	//존재하는 파일이라면 실행 시 80오류가 난다. : The file exists
 }
 
-void Ex05()
+static void Ex05()
 {
 	/*
 		CreateProcess : 덧셈 프로그램을 생성
@@ -106,7 +106,7 @@ void Ex05()
 	_gettchar();
 }
 
-void Ex06()
+static void Ex06()
 {
 	/*
 		Ex06
