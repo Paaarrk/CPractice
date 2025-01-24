@@ -1,11 +1,10 @@
-#include "Ch06.h"
 #include <iostream>
 #include <tchar.h>
 #include <Windows.h>
+#include "Ch07.h"
 
 
 int _tmain(int argc, TCHAR* argv[])
 {
-	Ex01();
-	return 0;
+	return NonStopAdderManager();
 }
