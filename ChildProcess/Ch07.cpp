@@ -68,3 +68,37 @@ int PartAdder(int argc, TCHAR* argv[])
 		total += i;
 	return total;
 }
+
+int DuplicateHandleChildProcess(int argc, TCHAR* argv[])
+{
+	HANDLE hParent;
+#ifdef UNICODE
+#pragma warning(push)
+#pragma warning(disable : 4996)
+	size_t len = _tcslen(argv[1]) + 1;
+	char* buffer = new char[len];
+	wcstombs(buffer, argv[1], len);
+	hParent = (HANDLE)_strtoui64(buffer, nullptr, 16);
+	delete[] buffer;
+#pragma warning(pop)
+#else
+	hParent = (HANDLE)_strtoui64(argv[1], nullptr, 16);
+#endif
+
+	DWORD isSuccess = WaitForSingleObject(hParent, INFINITE);
+
+	_tprintf_s(_T("[Child Process]\n"));
+	
+	if (isSuccess == WAIT_FAILED)
+	{
+		_tprintf_s(_T("WAIT_FAILED returned! \n"));
+		Sleep(10000);
+		return -1;
+	}
+	else {
+		_tprintf_s(_T("General Lee said, \"Don't inform ")
+			_T("the enemy my death\""));
+		Sleep(10000);
+		return 0;
+	}
+}

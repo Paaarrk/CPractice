@@ -1,12 +1,12 @@
 #include <iostream>
 #include <tchar.h>
 #include <Windows.h>
-#include "Ch07.h"
+#include "Ch08.h"
 
 
 int _tmain(int argc, TCHAR* argv[])
 {
-	
-	return PartAdder(argc, argv);
+	_tsetlocale(LC_ALL, _T("Korean"));
+	return NamedpipeClient();
 }
 

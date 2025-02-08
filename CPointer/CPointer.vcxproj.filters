@@ -18,31 +18,7 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ch01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch03.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch04.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch05.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch06.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch07.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch08.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ch09.c">
+    <ClCompile Include="ch10.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

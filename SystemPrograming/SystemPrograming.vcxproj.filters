@@ -15,16 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Ch07.cpp">
+    <ClCompile Include="Ch08.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ch07.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <None Include="Ch08.h" />
   </ItemGroup>
 </Project>

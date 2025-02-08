@@ -7,4 +7,10 @@ int MailSender();
 
 int NonStopAdderManager();
 
+int MailSenderWithChild();
+
+int MailSenderChild();
+
+int DuplicateHandle();
+
 #endif
