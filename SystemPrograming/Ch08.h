@@ -4,4 +4,8 @@
 int AnonymousPipe();
 
 int NamedPipeServer();
+
+int EnvParent();
+
+int ListProcessInfo();
 #endif

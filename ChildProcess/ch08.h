@@ -3,4 +3,5 @@
 
 int NamedpipeClient();
 
+int EnvChild();
 #endif

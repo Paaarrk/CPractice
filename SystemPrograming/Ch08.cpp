@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <Windows.h>
 #include <tchar.h>
+#include <conio.h>
+#include <TlHelp32.h>
 #include "Ch08.h"
 
 #define BUF_SIZE 1024
@@ -137,4 +139,59 @@ int CommToClient(HANDLE hPipe)
 	DisconnectNamedPipe(hPipe);
 	CloseHandle(hPipe);
 	return 1;
+}
+
+int EnvParent()
+{
+	SetEnvironmentVariable(_T("Good"), _T("morning"));
+	SetEnvironmentVariable(_T("Hey"), _T("Ho!"));
+	SetEnvironmentVariable(_T("Big"), _T("Boy"));
+
+	STARTUPINFO si = { 0, };
+	PROCESS_INFORMATION pi = { 0, };
+	si.cb = sizeof(si);
+
+	TCHAR command[] = _T("EnvChild");
+	CreateProcess(NULL, command, NULL, NULL,FALSE,
+		CREATE_NEW_CONSOLE|CREATE_UNICODE_ENVIRONMENT,
+		NULL	//lpEnvironment : 부모 프로세스의 환경변수 등록
+		, NULL, &si, &pi);
+	CloseHandle(pi.hProcess);
+	CloseHandle(pi.hThread);
+
+	_getch();
+	return 0;
+}
+
+int ListProcessInfo()
+{
+	HANDLE hProcessSnap =
+		CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+	if (hProcessSnap == INVALID_HANDLE_VALUE)
+	{
+		_tprintf_s(_T("CreateToolhelp32Snapshot error! \n"));
+		return -1;
+	}
+
+	// 프로세스 정보를 얻기 위한 구조체 변수
+	PROCESSENTRY32 pe32;
+	pe32.dwSize = sizeof(pe32);
+	if (!Process32First(hProcessSnap, &pe32))
+	{
+		_tprintf_s(_T("Process32First error!\n"));
+		CloseHandle(hProcessSnap);
+		return -1;
+	}
+
+	do
+	{
+		/* 프로세스 이름, ID 정보 출력 */
+		_tprintf_s(_T("%40s\t%5d \n"), 
+			pe32.szExeFile, pe32.th32ProcessID);
+		count++;
+	} while (Process32Next(hProcessSnap, &pe32));
+	CloseHandle(hProcessSnap);
+
+	Sleep(10000);
+	return 0;
 }

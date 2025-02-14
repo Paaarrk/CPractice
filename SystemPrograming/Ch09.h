@@ -1,0 +1,10 @@
+#ifndef __CH09_H__
+#define __CH09_H__
+
+int _ABOVE_NORMAL_PRIORITY_CLASS();
+
+int _NORMAL_PRIORITY_CLASS();
+
+int _BELOW_NORMAL_PRIORITY_CLASS();
+
+#endif

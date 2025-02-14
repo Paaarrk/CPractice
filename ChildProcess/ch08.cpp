@@ -87,3 +87,17 @@ int NamedpipeClient()
 	_getch();
 	return 0;
 }
+
+int EnvChild()
+{
+	TCHAR value[BUF_SIZE];
+	if (GetEnvironmentVariable(_T("Good"), value, BUF_SIZE) > 0)
+		_tprintf_s(_T("[%s = %s]\n"), _T("Good"), value);
+	if (GetEnvironmentVariable(_T("Hey"), value, BUF_SIZE) > 0)
+		_tprintf_s(_T("[%s = %s]\n"), _T("Hey"), value);
+	if (GetEnvironmentVariable(_T("Big"), value, BUF_SIZE) > 0)
+		_tprintf_s(_T("[%s = %s]\n"), _T("Big"), value);
+
+	Sleep(10000);
+	return 0;
+}
