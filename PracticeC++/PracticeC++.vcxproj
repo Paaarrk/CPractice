@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="04_Reference&amp;Overloading.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="04_Reference&amp;Overloading.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -90,6 +97,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +126,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,29 +135,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="array2d.cpp" />
-    <ClCompile Include="ch14.cpp" />
-    <ClCompile Include="ch15.cpp" />
-    <ClCompile Include="ch16.cpp" />
-    <ClCompile Include="Employ.cpp" />
-    <ClCompile Include="EmployHandler.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PermanentWorker.cpp" />
-    <ClCompile Include="SalesWorker.cpp" />
-    <ClCompile Include="TemporaryWorker.cpp" />
-    <ClCompile Include="TemporaryWorker.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="array2d.h" />
-    <ClInclude Include="ch14.h" />
-    <ClInclude Include="ch15.h" />
-    <ClInclude Include="ch16.h" />
-    <ClInclude Include="Employ.h" />
-    <ClInclude Include="EmployHandler.h" />
-    <ClInclude Include="PermanentWorker.h" />
-    <ClInclude Include="SalesWorker.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

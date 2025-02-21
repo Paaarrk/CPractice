@@ -5,5 +5,8 @@ CPointer/x64/
 CPointer/Release/
 PracticeC/.vs/
 PracticeC++/.vs/
+PracticeC++/Release/
+PracticeC++/x64
+PracticeC++/Debug/
 SystemPrograming/.vs/
 SystemPrograming/x64/
