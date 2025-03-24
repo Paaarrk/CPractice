@@ -19,11 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_MakeError_main.cpp" />
-    <ClCompile Include="_MakeError.cpp" />
+    <ClCompile Include="018_DebugHeap.cpp" />
+    <ClCompile Include="027_CacheProfile.cpp" />
+    <ClCompile Include="027_Profiler.cpp" />
+    <ClCompile Include="24_debug_newdelete.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_MakeError.h" />
+    <ClInclude Include="018_DebugHeap.h" />
+    <ClInclude Include="027_CacheProfile.h" />
+    <ClInclude Include="027_Profiler.h" />
+    <ClInclude Include="24_debug_newdelete.h" />
+    <ClInclude Include="datastructure.h" />
+    <ClInclude Include="d_array.h" />
+    <ClInclude Include="d_queue.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

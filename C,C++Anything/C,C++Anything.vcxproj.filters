@@ -13,18 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\datastructure">
+      <UniqueIdentifier>{b39a3ed7-2222-43f2-81b2-64577f632e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\datastructure">
+      <UniqueIdentifier>{13744abc-fcd0-4344-a4e7-6f67f81f5da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\debugger">
+      <UniqueIdentifier>{14e8e43e-e02c-4ff0-abcd-3e49c7976ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\debugger">
+      <UniqueIdentifier>{82dea058-7839-49db-9da5-f7d123447538}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_MakeError.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="018_DebugHeap.cpp">
+      <Filter>소스 파일\debugger</Filter>
     </ClCompile>
-    <ClCompile Include="_MakeError_main.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="24_debug_newdelete.cpp">
+      <Filter>소스 파일\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="027_CacheProfile.cpp">
+      <Filter>소스 파일\debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="027_Profiler.cpp">
+      <Filter>소스 파일\debugger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_MakeError.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="d_array.h">
+      <Filter>헤더 파일\datastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="datastructure.h">
+      <Filter>헤더 파일\datastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="d_queue.h">
+      <Filter>헤더 파일\datastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="018_DebugHeap.h">
+      <Filter>헤더 파일\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="24_debug_newdelete.h">
+      <Filter>헤더 파일\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="027_CacheProfile.h">
+      <Filter>헤더 파일\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="027_Profiler.h">
+      <Filter>헤더 파일\debugger</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
