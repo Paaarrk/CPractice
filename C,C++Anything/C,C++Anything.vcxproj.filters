@@ -39,6 +39,9 @@
     <ClCompile Include="027_Profiler.cpp">
       <Filter>소스 파일\debugger</Filter>
     </ClCompile>
+    <ClCompile Include="datastructure_main.cpp">
+      <Filter>소스 파일\datastructure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d_array.h">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="027_Profiler.h">
       <Filter>헤더 파일\debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="d_binarytree.h">
+      <Filter>헤더 파일\datastructure</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

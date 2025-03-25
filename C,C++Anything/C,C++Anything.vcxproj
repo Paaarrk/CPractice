@@ -23,6 +23,7 @@
     <ClCompile Include="027_CacheProfile.cpp" />
     <ClCompile Include="027_Profiler.cpp" />
     <ClCompile Include="24_debug_newdelete.cpp" />
+    <ClCompile Include="datastructure_main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="018_DebugHeap.h" />
@@ -31,6 +32,7 @@
     <ClInclude Include="24_debug_newdelete.h" />
     <ClInclude Include="datastructure.h" />
     <ClInclude Include="d_array.h" />
+    <ClInclude Include="d_binarytree.h" />
     <ClInclude Include="d_queue.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

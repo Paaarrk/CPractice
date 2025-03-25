@@ -7,6 +7,7 @@ using std::endl;
 
 void test_array();
 void test_queue();
+void test_binarytree();
 
 class Player
 {
@@ -52,6 +53,30 @@ public:
 		_money = ref._money;
 		return *this;
 	}
+	bool operator<(const Player& other)
+	{
+		return (_id < other._id);
+	}
+	bool operator>(const Player& other)
+	{
+		return (_id > other._id);
+	}
+	bool operator>=(const Player& other)
+	{
+		return (_id >= other._id);
+	}
+	bool operator<=(const Player& other)
+	{
+		return (_id <= other._id);
+	}
+	bool operator==(const Player& other)
+	{
+		return (_id == other._id);
+	}
+	bool operator!=(const Player& other)
+	{
+		return !(*this == other);
+	}
 private:
 	int _id;
 	int _posX;
@@ -63,7 +88,7 @@ private:
 
 int main(void)
 {
-	test_queue();
+	test_binarytree();
 
 	return 0;
 }
@@ -112,4 +137,32 @@ void test_queue()
 	}
 	p.clear();
 	printf_s("size: %zd", p.size());
+}
+void test_binarytree()
+{
+	my::binarytree<int> bt;
+	bt.insert(15);
+	bt.insert(10);
+	bt.insert(20);
+	bt.insert(4);
+	bt.insert(13);
+	bt.insert(1);
+	bt.insert(2);
+	bt.insert(11);
+	bt.insert(17);
+	bt.insert(25);
+	bt.insert(12);
+	bt.ShowTree();
+
+	my::binarytree<Player>btp;
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.insert(Player());
+	btp.ShowTree();
+	bt.clear();
+	btp.clear();
 }
