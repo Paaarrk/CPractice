@@ -269,7 +269,8 @@ namespace my
 							x_pAddress = GET_ADDRESS(x_p);
 							x_p_p = x_pAddress->p;	// case3 진입 준비
 						}
-						//case 3 : 레-레-블 1자임, x는 레
+						//case 3 : 레-레-블 1자임, x는 레드*3
+						
 					}
 				}
 				else
