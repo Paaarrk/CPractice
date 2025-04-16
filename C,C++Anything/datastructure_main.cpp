@@ -1,6 +1,8 @@
 #include <iostream>
 #include <windows.h>
 #include <array>
+
+#include "DebugTools.h"
 #include "datastructure.h"
 using std::cout;
 using std::endl;
@@ -8,6 +10,7 @@ using std::endl;
 void test_array();
 void test_queue();
 void test_binarytree();
+void test_redblacktree();
 
 class Player
 {
@@ -88,7 +91,7 @@ private:
 
 int main(void)
 {
-	test_binarytree();
+	test_redblacktree();
 
 	return 0;
 }
@@ -165,4 +168,9 @@ void test_binarytree()
 	btp.ShowTree();
 	bt.clear();
 	btp.clear();
+}
+void test_redblacktree()
+{
+	my::map<int, Player*> playerTree;
+	playerTree.insert(1, new Player());
 }

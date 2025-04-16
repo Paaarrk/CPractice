@@ -31,9 +31,11 @@
     <ClInclude Include="027_Profiler.h" />
     <ClInclude Include="24_debug_newdelete.h" />
     <ClInclude Include="datastructure.h" />
+    <ClInclude Include="DebugTools.h" />
     <ClInclude Include="d_array.h" />
     <ClInclude Include="d_binarytree.h" />
     <ClInclude Include="d_queue.h" />
+    <ClInclude Include="d_redblacktree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

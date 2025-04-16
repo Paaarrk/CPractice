@@ -1,7 +1,7 @@
 #ifndef __DEBUG_HEAP_H__
 #define __DEBUG_HEAP_H__
 
-//#define _DEBUG_OVER
+#define _DEBUG_OVER
 //#define _DEBUG_UNDER
 #ifdef _DEBUG_OVER
 #define malloc(size)	malloc_debug_overflow(size)

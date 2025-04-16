@@ -68,5 +68,11 @@
     <ClInclude Include="d_binarytree.h">
       <Filter>헤더 파일\datastructure</Filter>
     </ClInclude>
+    <ClInclude Include="d_redblacktree.h">
+      <Filter>헤더 파일\datastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTools.h">
+      <Filter>헤더 파일\debugger</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <stdio.h>
-
+#include "018_DebugHeap.h"
 
 void* malloc_debug_overflow(size_t t)
 {
@@ -18,7 +18,8 @@ void* malloc_debug_underflow(size_t t)
 	if (allocbase == NULL)
 		return NULL;
 	VirtualAlloc(allocbase, 4096, MEM_COMMIT, PAGE_NOACCESS);
-	VirtualAlloc((char*)allocbase + 4096, (t + 4095) & (~4095), MEM_COMMIT, PAGE_READWRITE);
+	void* p = VirtualAlloc((char*)allocbase + 4096, (t + 4095) & (~4095), MEM_COMMIT, PAGE_READWRITE);
+	return p;
 }
 int free_debug_heap(void* p)
 {

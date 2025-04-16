@@ -29,6 +29,7 @@ void* operator new[](size_t size, const char* File, int Line)
 	return p;
 }
 
+#ifdef _MYDEBUG
 void operator delete(void* p)
 {
 	bool success = AllocInfoHandler::getInstance().Delete(&p, false);
@@ -46,12 +47,13 @@ void operator delete[](void* p)
 		free(p);
 	}
 }
+#endif
 
-void operator delete(void* p, char* File, int Line)
+void operator delete(void* p, const char* File, int Line)
 {
 
 }
-void operator delete[](void* p, char* File, int Line)
+void operator delete[](void* p, const char* File, int Line)
 {
 
 }
@@ -119,10 +121,10 @@ void AllocInfoHandler::write(Error err, void* ptr, int idx)
 		fprintf_s(file, "NOALLOC\t[%p]\t\n", ptr);
 		break;
 	case ARRAY:
-		fprintf_s(file, "ARRAY\t[%p]\t [size: %d]\t %s : %d\n", ptr, arr[idx].size, arr[idx].filename, arr[idx].line);
+		fprintf_s(file, "ARRAY\t[%p]\t [size: %zd]\t %s : %d\n", ptr, arr[idx].size, arr[idx].filename, arr[idx].line);
 		break;
 	case LEAK:
-		fprintf_s(file, "LEAK\t[%p]\t [size: %d]\t %s : %d\n", ptr, arr[idx].size, arr[idx].filename, arr[idx].line);
+		fprintf_s(file, "LEAK\t[%p]\t [size: %zd]\t %s : %d\n", ptr, arr[idx].size, arr[idx].filename, arr[idx].line);
 		break;
 	}
 }
@@ -206,5 +208,3 @@ int AllocInfoHandler::find(void* ptr, bool array)
 
 	return index;
 }
-
-#define new new(__FILE__, __LINE__)

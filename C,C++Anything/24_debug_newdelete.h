@@ -1,16 +1,14 @@
 #ifndef __DEBUG_NEW_DELETE_H__
 #define __DEBUG_NEW_DELETE_H__
 #define MAX_NUM			1000
-#define HANDLER_FULL	0x00000923
+#define HANDLER_FULL	0x00000000
 #define DELETED			0x10000000
 #define FILE_NAME_LEN	128
-
-#define _DEBUG_NEW
-
+/* 필수헤더 windows.h */
 struct AllocInfo
 {
 	void* ptr;
-	int size;
+	size_t size;
 	char filename[FILE_NAME_LEN];
 	int line;
 	bool array;
@@ -52,8 +50,8 @@ private:
 		}
 		fclose(file);
 	}
-	AllocInfoHandler(AllocInfoHandler&){}
-	AllocInfoHandler& operator=(const AllocInfoHandler&) {}
+	AllocInfoHandler(AllocInfoHandler&) = delete;
+	AllocInfoHandler& operator=(const AllocInfoHandler&) = delete;
 	void write(Error err, void* ptr, int idx);
 	bool getAllocArray(int idx)	const;
 
@@ -64,12 +62,14 @@ private:
 
 void* operator new(size_t size, const char *File, int Line);
 void* operator new[](size_t size, const char *File, int Line);
+void operator delete(void* p, const char* File, int Line);
+void operator delete[](void* p, const char* File, int Line);
+#ifdef _MYDEBUG
 void operator delete(void* p);
 void operator delete[](void* p);
-void operator delete(void* p, char* File, int Line);
-void operator delete[](void* p, char* File, int Line);
-
-#ifdef _DEBUG_NEW
 #define new new(__FILE__, __LINE__)
+#else
+
 #endif
+
 #endif

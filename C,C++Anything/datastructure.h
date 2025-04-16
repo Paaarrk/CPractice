@@ -8,3 +8,4 @@
 #include "d_array.h"
 #include "d_queue.h"
 #include "d_binarytree.h"
+#include "d_redblacktree.h"

@@ -32,8 +32,15 @@ void CacheProfile::push(const char* file, int line, const void* rd, size_t szrd,
 	{
 		if (wt != nullptr && szwt != 0)
 		{	//write a to b
+#pragma warning(push)
+#pragma warning(disable:4302)
+#pragma warning(push)
+#pragma warning(disable:4311)
+			/* 필요한 것은 상위 6비트 이기 때문에 int로 잘라버렸다.*/
 			rdidx = ((int)pr & 0x00000FC0) >> 6;
 			wtidx = ((int)pw & 0x00000FC0) >> 6;
+#pragma warning(pop)
+#pragma warning(pop)
 
 			if(_cache[rdidx].isHit(pr))
 			{	//cache hit
@@ -58,7 +65,14 @@ void CacheProfile::push(const char* file, int line, const void* rd, size_t szrd,
 		}
 		else
 		{	//read only or write immediate variable
+#pragma warning(push)
+#pragma warning(disable:4302)
+#pragma warning(push)
+#pragma warning(disable:4311)
+			/* 필요한 것은 상위 6비트 이기 때문에 int로 잘라버렸다.*/
 			rdidx = ((int)pr & 0x00000FC0) >> 6;	// 인덱스 추출
+#pragma warning(pop)
+#pragma warning(pop)
 
 			if (_cache[rdidx].isHit(pr))
 			{	//cache hit
