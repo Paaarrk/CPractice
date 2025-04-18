@@ -171,6 +171,27 @@ void test_binarytree()
 }
 void test_redblacktree()
 {
+	srand(10);
 	my::map<int, Player*> playerTree;
-	playerTree.insert(1, new Player());
+	static int arr[10000];
+	for (int i = 0; i < 10000; i++)
+	{
+		arr[i] = rand() % 10000;
+	}
+	int falseCount = 0;
+
+	for (int i = 0; i < 10000; i++)
+	{
+		if (playerTree.insert(arr[i], new Player()) == false)
+		{
+			falseCount++;
+		}
+	}
+	my::map<int, Player*>::iterator iter = playerTree.begin();
+	if ((--iter) == playerTree.end())
+	{
+		printf_s("¼º°ø\n");
+	}
+	playerTree.showInfo();
+	printf_s("false cnt: %d, size: %zd\n", falseCount, playerTree.size());
 }
