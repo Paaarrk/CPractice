@@ -1,12 +1,12 @@
 #include <iostream>
 #include <tchar.h>
 #include <Windows.h>
-#include "Ch13.h"
+#include "CH19.h"
 
 
-int _tmain(int argc, TCHAR* argv[])
+int _wmain(int argc, TCHAR* argv[])
 {
-	_tsetlocale(LC_ALL, _T("Korean"));
+	_wsetlocale(LC_ALL, _T("Korean"));
 
-	return UseCriticalSection();
+	return 0;
 }
