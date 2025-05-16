@@ -614,7 +614,7 @@ namespace my
 		{
 			while (GET_ADDRESS(x) != _root && GET_COLOR(x) == BLACK)
 			{
-				if()
+				
 			}
 
 			SET_BLACK(x);

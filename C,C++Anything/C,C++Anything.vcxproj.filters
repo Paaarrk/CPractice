@@ -39,8 +39,8 @@
     <ClCompile Include="027_Profiler.cpp">
       <Filter>소스 파일\debugger</Filter>
     </ClCompile>
-    <ClCompile Include="datastructure_main.cpp">
-      <Filter>소스 파일\datastructure</Filter>
+    <ClCompile Include="testarray.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
